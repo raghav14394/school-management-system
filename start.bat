@@ -26,12 +26,3 @@ echo   Application started!
 echo   Frontend: http://localhost:3000
 echo   Backend:  http://localhost:5000
 
-echo.
-echo   Demo Login Credentials:
-echo   Admin:   admin@school.com / admin123
-echo   Teacher: john.smith@school.com / teacher123
-echo   Student: student1@school.com / student123
-echo   Parent:  parent1@school.com / parent123
-echo ================================================
-echo.
-pause
