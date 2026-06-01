@@ -83,17 +83,6 @@ export default function Login() {
             </button>
           </form>
 
-          <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
-            <p className="text-xs text-gray-500 dark:text-gray-400 mb-3 font-medium">Demo Accounts:</p>
-            <div className="grid grid-cols-2 gap-2 text-xs">
-              <button onClick={() => { setEmail('admin@school.com'); setPassword('admin123'); }} className="p-2 bg-indigo-50 dark:bg-gray-700 rounded text-indigo-700 dark:text-indigo-300 hover:bg-indigo-100 dark:hover:bg-gray-600 transition">Admin</button>
-              <button onClick={() => { setEmail('john.smith@school.com'); setPassword('teacher123'); }} className="p-2 bg-green-50 dark:bg-gray-700 rounded text-green-700 dark:text-green-300 hover:bg-green-100 dark:hover:bg-gray-600 transition">Teacher</button>
-              <button onClick={() => { setEmail('student1@school.com'); setPassword('student123'); }} className="p-2 bg-blue-50 dark:bg-gray-700 rounded text-blue-700 dark:text-blue-300 hover:bg-blue-100 dark:hover:bg-gray-600 transition">Student</button>
-              <button onClick={() => { setEmail('parent1@school.com'); setPassword('parent123'); }} className="p-2 bg-orange-50 dark:bg-gray-700 rounded text-orange-700 dark:text-orange-300 hover:bg-orange-100 dark:hover:bg-gray-600 transition">Parent</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+   
   );
 }
