@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://school-management-api-vjtj.onrender.com/api',
   headers: { 'Content-Type': 'application/json' }
 });
 
